@@ -6,9 +6,10 @@ import Paragraph from './components/Paragraph'
 function App() {
   return (
     <div className="App">
+      <>
       <Header />
       <Paragraph />
-    
+      </>
     </div>
   );
 }
