@@ -1,7 +1,7 @@
 import React from "react";
 
-const Paragraph = ({ message }) => (
-    <p className="lead" >{ message ? message :  "Hello, world" }</p>
+const Paragraph = ({ children }) => (
+    <p className="lead" >{ children ? children :  "Hello, world" }</p>
 );
 
 
