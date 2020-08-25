@@ -10,7 +10,8 @@ const Stuff = () => (
       <Header text= "Hey World"></Header>
       <Paragraph message= "La la la la "/>
       <Square colour= "green" />
-      <People />
+      <People names = {["James P. Sullivan", "Mike Wazowski", "Boo", "Randall Boggs", "Roz", "Fungus"]} />
+                   {/*^ mustach becaus we need to enter JS land for JS types to be understood*/}
     </>
 )
 export default Stuff;
