@@ -10,8 +10,7 @@ const People = ( {names} )  => (
                 <li className="list-group-item" key={ index }>{ name }</li>
            )) }
        </ul>
-    ) :
-    <p>Nothing to see here</p> 
+    ) : <p>Nothing to see here</p>
 );
 
 // nothing but output statmnts ever goes up here in normal Usecasses

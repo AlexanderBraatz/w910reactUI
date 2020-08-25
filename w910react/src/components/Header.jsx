@@ -6,6 +6,6 @@ const Header = ({text}) => (
     <header className="jumbotron #f0ad4e">
         <h1>{ text }</h1>
     </header>
-)
+);
 
 export default Header;
