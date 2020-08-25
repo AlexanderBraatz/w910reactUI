@@ -1,11 +1,18 @@
-import React from "react";
+import React, { Component } from "react";
 
-// the props object is passed as the argument with all props declared in Stuff as its properties
-//props.text === { text } because we are still in Js land no {{ text}}
-const Header = ({ children }) => (
-    <header className="jumbotron #f0ad4e">
-        <h1>{ children }</h1>
-    </header>
-);
+class Header extends Component{
+    
+
+    render() {
+        let { children } = this.props;
+                        //^ props object is passed into the classcomponent as a property by react
+        return (
+            <header className="jumbotron #f0ad4e">
+                <h1>{ children }</h1>
+            </header>
+        );
+    }
+}
+
 
 export default Header;

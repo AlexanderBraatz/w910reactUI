@@ -1,8 +1,14 @@
-import React from "react";
+import React, { Component } from "react";
 
-const Paragraph = ({ children }) => (
-    <p className="lead" >{ children ? children :  "Hello, world" }</p>
-);
+class Paragraph extends Component{
+    render() {
+        let { children } = this.props;
+        return(
+            <p className="lead" >{ children ? children :  "Hello, world" }</p>
+        );
+    }
+}
+
 
 
 export default Paragraph;
