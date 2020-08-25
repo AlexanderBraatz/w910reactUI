@@ -7,7 +7,7 @@ import People from './People'
 
 const Stuff = () => (
     <>
-      <Header text= "Hey World"></Header>
+      <Header>Hey World</Header>
       <Paragraph message= "La la la la "/>
       <Square colour= "green" square= { false } />
       <People names = {["James P. Sullivan", "Mike Wazowski", "Boo", "Randall Boggs", "Roz", "Fungus"]} />
