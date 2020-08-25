@@ -9,7 +9,7 @@ const Stuff = () => (
     <>
       <Header text= "Hey World"></Header>
       <Paragraph message= "La la la la "/>
-      <Square />
+      <Square colour= "green" />
       <People />
     </>
 )
