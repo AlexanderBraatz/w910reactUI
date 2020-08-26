@@ -1,25 +1,11 @@
 03 state exercises
-6
+7
 - make class
 
-state.position
-handle(
--how move button..css? 
-- position: relative 
-y = y+ jump
-
-
-
-
-
-
-
-
-
-
-- make class
-- add defalt props
-- constructor 
-    state.
+- state.index
+- handle(){
+    s.index = %..
+}   
 -render
-- handle clicks
+next = p.arr[s.index]
+button>next<
