@@ -1,9 +1,9 @@
 03 state exercises
-2
-- change to class
-- add state colur
-- add default green prop
-- add onClick = .. call handlerto square
-- add handler method to change color
---set state to "other color" -- looka t answer
-- bind this to handler
+3
+- make file 
+make class comp
+- render p and button
+- on click handlermethod 
+- setstate =!..
+-ternery for p in rnder whith both props
+- bootstrap alert styleing-see answer
