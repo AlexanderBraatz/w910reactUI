@@ -3,6 +3,7 @@ import './App.css';
 
 import Stuff from './components/Stuff'
 import Clicked from './components/Clicked'
+import ToggleText  from './components/03-state/ToggleText '
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
     <div className="App">
       <Stuff />
       <Clicked />
+      <ToggleText  />
     </div>
   );
 }

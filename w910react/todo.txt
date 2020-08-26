@@ -1,0 +1,9 @@
+03 state exercises
+2
+- change to class
+- add state colur
+- add default green prop
+- add onClick = .. call handlerto square
+- add handler method to change color
+--set state to "other color" -- looka t answer
+- bind this to handler

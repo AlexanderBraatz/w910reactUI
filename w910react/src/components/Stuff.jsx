@@ -9,7 +9,7 @@ const Stuff = () => (
     <>
       <Header>Hey anne und mama</Header>
       <Paragraph>La la la la</Paragraph>
-      <Square colour= "green" square= { false } />
+      <Square colour= "hotpink" />
       <People names = {["James P. Sullivan", "Mike Wazowski", "Boo", "Randall Boggs", "Roz", "Fungus"]} />
                    {/*^ mustach becaus we need to enter JS land for JS types to be understood*/}
     </>
