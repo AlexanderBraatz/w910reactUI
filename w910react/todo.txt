@@ -1,8 +1,13 @@
 03 state exercises
-5
--- make class
-cahnge countert to accept a increment
-use changed counter
+6
+- make class
+
+state.position
+handle(
+-how move button..css? 
+- position: relative 
+y = y+ jump
+
 
 
 
