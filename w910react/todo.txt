@@ -1,9 +1,13 @@
 03 state exercises
-3
-- make file 
-make class comp
-- render p and button
-- on click handlermethod 
-- setstate =!..
--ternery for p in rnder whith both props
-- bootstrap alert styleing-see answer
+4
+- make class
+- add defalt props
+- constructor 
+    state.counter
+-make one button then copy past
+- render p> { this.props.initial }<
+    Button add button minus
+- on click each button handle state +1
+    - condition if state < 100 && ...> 0
+    - 100 should be props.max
+    -add bootstrap style
