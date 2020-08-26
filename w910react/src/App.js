@@ -3,6 +3,7 @@ import './App.css';
 
 import Stuff from './components/Stuff'
 import StateComponents from './components/StateComponents'
+import GodCounter from './components/04lifecycle/GodCounter'
 
 
 
@@ -11,6 +12,7 @@ function App() {
     <div className="App">
       <Stuff />
       <StateComponents />
+      <GodCounter />
     </div>
   );
 }

@@ -1,11 +1,2 @@
-03 state exercises
-7
-- make class
-
-- state.index
-- handle(){
-    s.index = %..
-}   
--render
-next = p.arr[s.index]
-button>next<
+04 lifecycleexercises
+1
