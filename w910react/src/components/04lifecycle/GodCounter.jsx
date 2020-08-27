@@ -16,6 +16,10 @@ class GodCounter extends Component {
     }
     //^runs after mounting and 1st render to set up the event listener
 
+    componentWillUnmount(){
+        window.removeEventListener("click", () => this.handleClick() )
+    }
+
     handleClick() {
   
         this.setState({

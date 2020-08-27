@@ -37,7 +37,7 @@ class Counter extends Component {
         return(
             <div className="card">
                 <p>{ this.state.counter }</p>
-                <button className= "btn btn-dark" onClick= { this.handleClickAdd}>
+                <button className= "btn btn-dark" onClick= { this.handleClickAdd }>
                     +
                 </button>
                 <button className= "btn btn-light" onClick= { this.handleClickMinus}>
