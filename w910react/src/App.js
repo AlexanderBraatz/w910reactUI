@@ -6,7 +6,7 @@ import StateComponents from './components/StateComponents'
 import GodCounter from './components/04lifecycle/GodCounter'
 import TwoCounters from './components/04lifecycle/TwoCounters'
 import Length from './components/05forms/Length'
-
+import PasswordStrength from './components/05forms/PasswordStrength'
 
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
       <GodCounter />
       <TwoCounters />
       <Length />
-
+      <PasswordStrength />
     </div>
   );
 }

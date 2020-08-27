@@ -9,7 +9,7 @@ which updates the tab text(document.title) opon Component Update"
 
 "W9D3 chall 05-forms chall-03 made TempConverter which uses two number type input fields that update if one of them recives an input"
 
-      <PasswordStrength />
+
       <TempConverter />
       <List />
 
