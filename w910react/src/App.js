@@ -9,6 +9,7 @@ import Length from './components/05forms/Length'
 import PasswordStrength from './components/05forms/PasswordStrength'
 import TempConverter from './components/05forms/TempConverter'
 import List from './components/05forms/List'
+import Adder from './components/05forms/Adder'
 
 
 
@@ -23,6 +24,7 @@ function App() {
       <PasswordStrength />
       <TempConverter />
       <List />
+      <Adder />
     </div>
   );
 }

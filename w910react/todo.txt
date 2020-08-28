@@ -1,19 +1,5 @@
-missed commits
-
-"W9D3 chall 04-lifecycle 02 created TwoCounter 
-which updates the tab text(document.title) opon Component Update"
-
-"W9D3 chall 05-forms chall-01 made a Length Cpmponent which displays the length of what is entered into an input field"
-
-"W9D3 chall 05-forms chall-02 made a PasswordStrength Component which uses input and performs logic to change color, also fixed Length ClassName warning"
-
-"W9D3 chall 05-forms chall-03 made TempConverter which uses two number type input fields that update if one of them recives an input"
-
-
-
-      <List />
-
-      
-import PasswordStrength from './components/05forms/PasswordStrength'
-import TempConverter from './components/05forms/TempConverter'
-import List from './components/05forms/List'
+5
+- list plus number check
+      save value, array ad total in state
+- total part of Two counters
+- display in p
