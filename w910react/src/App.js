@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter as Router, Route,} from 'react-router-dom';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import './App.css';
 
 
@@ -26,6 +26,7 @@ import CatchMeIfYouCan from './components/03state/CatchMeIfYouCan'
 import RollCall from './components/03state/RollCall'
 
 import Footer from './components/06routing/Footer'
+import FourOhFour from './components/06routing/FourOhFour'
 
 
 
@@ -33,54 +34,55 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Route  path="/buttons" >
-          <Clicked />
-          <ToggleText  />
-          <CatchMeIfYouCan />
-          <RollCall />
-        </Route>
+        <Switch>
+          <Route  path="/buttons" >
+            <Clicked />
+            <ToggleText  />
+            <CatchMeIfYouCan />
+            <RollCall />
+          </Route>
 
-        <Route  path="/counters">
-          <TwoCounters />
-          <GodCounter />
-        </Route>
+          <Route  path="/counters">
+            <TwoCounters />
+            <GodCounter />
+          </Route>
 
-        <Route  path="/lists">
-          <List />
-          <Adder />
-        </Route>
+          <Route  path="/lists">
+            <List />
+            <Adder />
+          </Route>
 
-        <Route  path="/tests">
-          <Length />
-          <PasswordStrength />
-          <TempConverter />
-        </Route>
+          <Route  path="/tests">
+            <Length />
+            <PasswordStrength />
+            <TempConverter />
+          </Route>
 
-        <Route  path="/welcome">
-          <Header>Hello there!</Header>
-          <People names = {["James P. Sullivan", "Mike Wazowski", "Boo", "Randall Boggs", "Roz", "Fungus"]} />
-          <Paragraph>La la la la</Paragraph>
-        </Route>
+          <Route  path="/welcome">
+            <Header>Hello there!</Header>
+            <People names = {["James P. Sullivan", "Mike Wazowski", "Boo", "Randall Boggs", "Roz", "Fungus"]} />
+            <Paragraph>La la la la</Paragraph>
+          </Route>
 
-        <Route  path="/square">
-          <Square colour= "hotpink" />
-        </Route >
+          <Route  path="/square">
+            <Square colour= "hotpink" />
+          </Route >
 
-        <Route  path="/maths">
-          <Counter
-            initial = { 90 }
-            max= { 100 } 
-          />
-          <StepCounter 
-            initial = { 60 }
-            max= { 100 } 
-          />
-          <Transform  function= { x => x * x }/>
-          <Transform  function= { x => x + x/2 }/>
-          <Transform  function= { x => x - (x * x )/10 }/>
-        </Route>
-
-
+          <Route  path="/maths">
+            <Counter
+              initial = { 90 }
+              max= { 100 } 
+            />
+            <StepCounter 
+              initial = { 60 }
+              max= { 100 } 
+            />
+            <Transform  function= { x => x * x }/>
+            <Transform  function= { x => x + x/2 }/>
+            <Transform  function= { x => x - (x * x )/10 }/>
+          </Route>
+          <FourOhFour />
+        </Switch>
         <Footer />
       </Router>
     </div>
