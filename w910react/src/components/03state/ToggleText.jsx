@@ -26,8 +26,8 @@ class ToggleText extends Component {
                 <p>{ output }</p>
                 <button 
                     onClick= { this.handleClick }
-                    type="button" className="btn btn-primary"
-                ></button>
+                    type="button" className="btn btn-secondary m-3"
+                >switch</button>
             </>
         )
     }

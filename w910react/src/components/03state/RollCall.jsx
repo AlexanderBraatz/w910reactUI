@@ -22,7 +22,7 @@ class RollCall extends Component {
         return(
             <button
             onClick={ this.handleClick }
-            className= "btn btn-light border border-primary">
+            className= "btn btn-light border border-primary m-3">
                 { next }
             </button>
         )

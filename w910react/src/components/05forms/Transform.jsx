@@ -33,7 +33,7 @@ class Transform extends Component {
         return( 
 
             <div 
-            className="input-group mb-3"> 
+            className="input-group mb-3 mt-3"> 
                 <div 
                 className="input-group-prepend">
                     <span 

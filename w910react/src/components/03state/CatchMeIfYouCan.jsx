@@ -25,7 +25,7 @@ class CatchMeIfYouCan extends Component {
                 
             }}
             onClick= { this.handleClick }
-            className= "btn btn-secondary">
+            className= "btn btn-secondary m-3">
                 Catch Me If You Can
             </button>
         )
