@@ -1,5 +1,6 @@
 5
 - list plus number check
-      save value, array ad total in state
+      save value, array 
+      total is reduce () =>(a +b)
 - total part of Two counters
 - display in p

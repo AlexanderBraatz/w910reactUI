@@ -10,6 +10,7 @@ import PasswordStrength from './components/05forms/PasswordStrength'
 import TempConverter from './components/05forms/TempConverter'
 import List from './components/05forms/List'
 import Adder from './components/05forms/Adder'
+import Transform from './components/05forms/Transform'
 
 
 
@@ -25,6 +26,10 @@ function App() {
       <TempConverter />
       <List />
       <Adder />
+      <br></br>
+      <Transform  function= { x => x * x }/>
+      <Transform  function= { x => x + x/2 }/>
+      <Transform  function= { x => x - (x * x )/10 }/>
     </div>
   );
 }
