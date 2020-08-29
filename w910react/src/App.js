@@ -64,7 +64,12 @@ function App() {
             <Paragraph>La la la la</Paragraph>
           </Route>
 
-          <Route  path="/square">
+          <Route  
+            path="/square/:colour"
+            render= { ( { match }) =>(<Square colour= { match.params.colour } /> ) }  >
+          </Route >
+
+          <Route  exact path="/square">
             <Square colour= "hotpink" />
           </Route >
 
@@ -80,7 +85,12 @@ function App() {
             <Transform  function= { x => x * x }/>
             <Transform  function= { x => x + x/2 }/>
             <Transform  function= { x => x - (x * x )/10 }/>
+       
           </Route>
+            <Route path="/steps/:max/:step"
+              render={ ( { match } ) => ( <StepCounter  max= { match.params.max } step = { match.params.step } /> )}>
+            </Route>
+       
           <FourOhFour />
         </Switch>
         <Footer />
