@@ -25,6 +25,8 @@ import StepCounter from './components/03state/StepCounter'
 import CatchMeIfYouCan from './components/03state/CatchMeIfYouCan'
 import RollCall from './components/03state/RollCall'
 
+import Footer from './components/06routing/Footer'
+
 
 
 function App() {
@@ -43,7 +45,7 @@ function App() {
           <GodCounter />
         </Route>
 
-        <Route  path="/Lists">
+        <Route  path="/lists">
           <List />
           <Adder />
         </Route>
@@ -79,7 +81,7 @@ function App() {
         </Route>
 
 
-
+        <Footer />
       </Router>
     </div>
   );

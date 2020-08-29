@@ -12,12 +12,12 @@ class GodCounter extends Component {
        
     }
     componentDidMount(){
-        window.addEventListener("click", () => this.handleClick() )
+        window.addEventListener("click", this.handleClick )// <- putting t.handleClick in an anon fn breaks WillUnmount so just use it like it's done here
     }
     //^runs after mounting and 1st render to set up the event listener
 
     componentWillUnmount(){
-        window.removeEventListener("click", () => this.handleClick() )
+        window.removeEventListener("click", this.handleClick )
     }
 
     handleClick() {
