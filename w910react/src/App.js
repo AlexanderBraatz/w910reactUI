@@ -31,6 +31,7 @@ import FourOhFour from './components/06routing/FourOhFour'
 import Progress from './components/07pre-built/Progress'
 import CatchMeIfYouCanPre from './components/07pre-built/CatchMeIfYouCanPre'
 import PasswordStrengthPre from './components/07pre-built/PasswordStrengthPre'
+import ListPre from './components/07pre-built/ListPre'
 
 
 function App() {
@@ -43,7 +44,9 @@ function App() {
           <CatchMeIfYouCanPre 
             jump={ 100 }/>
           <PasswordStrengthPre />
+          <ListPre />
         </Route>
+
           <Route  path="/buttons" >
             <Clicked />
             <ToggleText  />
