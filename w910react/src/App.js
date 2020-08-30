@@ -32,6 +32,7 @@ import Progress from './components/07pre-built/Progress'
 import CatchMeIfYouCanPre from './components/07pre-built/CatchMeIfYouCanPre'
 import PasswordStrengthPre from './components/07pre-built/PasswordStrengthPre'
 import ListPre from './components/07pre-built/ListPre'
+import TempConverterPre from './components/07pre-built/TempConverterPre'
 
 
 function App() {
@@ -45,6 +46,7 @@ function App() {
             jump={ 100 }/>
           <PasswordStrengthPre />
           <ListPre />
+          <TempConverterPre />
         </Route>
 
           <Route  path="/buttons" >

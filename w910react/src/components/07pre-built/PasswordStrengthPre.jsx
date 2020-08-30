@@ -45,6 +45,7 @@ class PasswordStrengthPre extends Component {
                         backgroundColor : this.state.colour,
                     }}
                     onChange= {(e) => this.handleChange(e)}
+                    value= { this.state.value }
                     placeholder="test your password safety!"
                     aria-label="Password"
                     aria-describedby="basic-addon1"
