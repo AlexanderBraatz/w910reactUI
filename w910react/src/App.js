@@ -28,6 +28,7 @@ import RollCall from './components/03state/RollCall'
 import Footer from './components/06routing/Footer'
 import FourOhFour from './components/06routing/FourOhFour'
 
+import Progress from './components/07pre-built/Progress'
 
 
 function App() {
@@ -35,6 +36,9 @@ function App() {
     <div className="App">
       <Router>
         <Switch>
+        <Route  path="/pre-built" >
+          <Progress />
+        </Route>
           <Route  path="/buttons" >
             <Clicked />
             <ToggleText  />
@@ -87,9 +91,9 @@ function App() {
             <Transform  function= { x => x - (x * x )/10 }/>
        
           </Route>
-            <Route path="/steps/:max/:step"
-              render={ ( { match } ) => ( <StepCounter  max= { match.params.max } step = { match.params.step } /> )}>
-            </Route>
+          <Route path="/steps/:max/:step"
+            render={ ( { match } ) => ( <StepCounter  max= { match.params.max } step = { match.params.step } /> )}>
+          </Route>
        
           <FourOhFour />
         </Switch>

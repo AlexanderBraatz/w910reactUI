@@ -8,6 +8,9 @@ const Footer = () => (
   <div className=" " id="navbarNav">
     <ul className="navbar-nav">
       <li className="nav-item">
+        <Link className="nav-link " to="/welcome">Welcome</Link>
+      </li>
+      <li className="nav-item">
         <Link className="nav-link" to="/buttons">Buttons</Link>
       </li>
       <li className="nav-item">
@@ -21,14 +24,14 @@ const Footer = () => (
         <Link className="nav-link " to="/tests">Tests</Link>
       </li>
       <li className="nav-item">
-        <Link className="nav-link " to="/welcome">Welcome</Link>
-      </li>
-      <li className="nav-item">
         <Link className="nav-link " to="/square">Square</Link>
       </li>
       <li className="nav-item">
         <Link className="nav-link " to="/maths">Maths</Link>
-      </li>      
+      </li>    
+      <li className="nav-item">
+        <Link className="nav-link " to="/pre-built">Pre-built</Link>
+      </li>  
     </ul>
   </div>
 </nav>
