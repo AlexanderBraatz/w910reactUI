@@ -29,6 +29,7 @@ import Footer from './components/06routing/Footer'
 import FourOhFour from './components/06routing/FourOhFour'
 
 import Progress from './components/07pre-built/Progress'
+import CatchMeIfYouCanPre from './components/07pre-built/CatchMeIfYouCanPre'
 
 
 function App() {
@@ -38,6 +39,8 @@ function App() {
         <Switch>
         <Route  path="/pre-built" >
           <Progress />
+          <CatchMeIfYouCanPre 
+            jump={ 100 }/>
         </Route>
           <Route  path="/buttons" >
             <Clicked />
