@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import { HashRouter as Router, Route, Switch} from 'react-router-dom'; // changed BrowserRouter to HashRouter for deployment on GitHub pages ,also made changes to package.json 
 import './App.css';
 
 
