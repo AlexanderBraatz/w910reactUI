@@ -28,11 +28,12 @@ import RollCall from './components/03state/RollCall'
 import Footer from './components/06routing/Footer'
 import FourOhFour from './components/06routing/FourOhFour'
 
-import Progress from './components/07pre-built/Progress'
-import CatchMeIfYouCanPre from './components/07pre-built/CatchMeIfYouCanPre'
-import PasswordStrengthPre from './components/07pre-built/PasswordStrengthPre'
-import ListPre from './components/07pre-built/ListPre'
-import TempConverterPre from './components/07pre-built/TempConverterPre'
+import Progress from './components/07pre-built/React-bootstrap/Progress'
+import CatchMeIfYouCanPre from './components/07pre-built/React-bootstrap/CatchMeIfYouCanPre'
+import PasswordStrengthPre from './components/07pre-built/React-bootstrap/PasswordStrengthPre'
+import ListPre from './components/07pre-built/React-bootstrap/ListPre'
+import TempConverterPre from './components/07pre-built/React-bootstrap/TempConverterPre'
+import Dates from './components/07pre-built/Dates'
 
 
 function App() {
@@ -47,6 +48,7 @@ function App() {
           <PasswordStrengthPre />
           <ListPre />
           <TempConverterPre />
+          <Dates />
         </Route>
 
           <Route  path="/buttons" >
