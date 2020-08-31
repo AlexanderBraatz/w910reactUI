@@ -34,6 +34,7 @@ import PasswordStrengthPre from './components/07pre-built/React-bootstrap/Passwo
 import ListPre from './components/07pre-built/React-bootstrap/ListPre'
 import TempConverterPre from './components/07pre-built/React-bootstrap/TempConverterPre'
 import Dates from './components/07pre-built/Dates'
+import Images from './components/07pre-built/Images'
 
 
 function App() {
@@ -49,6 +50,7 @@ function App() {
           <ListPre />
           <TempConverterPre />
           <Dates />
+          <Images />
         </Route>
 
           <Route  path="/buttons" >
