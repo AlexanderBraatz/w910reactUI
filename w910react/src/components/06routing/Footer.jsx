@@ -7,6 +7,9 @@ const Footer = () => (
 
   <div className=" " id="navbarNav">
     <ul className="navbar-nav">
+      <li className="nav-item active">
+        <Link className="nav-link" to="/">Home</Link>
+      </li>
       <li className="nav-item">
         <Link className="nav-link " to="/welcome">Welcome</Link>
       </li>

@@ -35,6 +35,7 @@ import ListPre from './components/07pre-built/React-bootstrap/ListPre'
 import TempConverterPre from './components/07pre-built/React-bootstrap/TempConverterPre'
 import Dates from './components/07pre-built/Dates'
 import Images from './components/07pre-built/Images'
+import ColourHeadline from './components/07pre-built/ColourHeadline'
 
 
 function App() {
@@ -42,16 +43,20 @@ function App() {
     <div className="App">
       <Router>
         <Switch>
-        <Route  path="/pre-built" >
-          <Progress />
-          <CatchMeIfYouCanPre 
-            jump={ 100 }/>
-          <PasswordStrengthPre />
-          <ListPre />
-          <TempConverterPre />
-          <Dates />
-          <Images />
-        </Route>
+          <Route exact path="/">
+           <ColourHeadline message=" Click ME! - to change ME!"/>
+          </Route>
+
+          <Route  path="/pre-built" >
+            <Progress />
+            <CatchMeIfYouCanPre 
+              jump={ 100 }/>
+            <PasswordStrengthPre />
+            <ListPre />
+            <TempConverterPre />
+            <Dates />
+            <Images />
+          </Route>
 
           <Route  path="/buttons" >
             <Clicked />
