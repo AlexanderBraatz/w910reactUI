@@ -36,8 +36,12 @@ import TempConverterPre from './components/07pre-built/React-bootstrap/TempConve
 import Dates from './components/07pre-built/Dates'
 import Images from './components/07pre-built/Images'
 import ColourHeadline from './components/07pre-built/ColourHeadline'
+import ToggleTextH from './components/10hooks/ToggleTextH'
+
 
 import {Clicked as Clicked2} from './components/10hooks/Clicked'
+import SquareH from './components/10hooks/SquareH'
+import CounterH from './components/10hooks/CounterH'
 
 
 function App() {
@@ -45,6 +49,14 @@ function App() {
     <div className="App">
       <Router>
         <Switch>
+
+          <Route path="/Hooks">
+            <Clicked2 />
+            <SquareH colour= "hotpink" />
+            <ToggleTextH initial="Hello" alternate="World" />
+            <CounterH initial={ 50 } max={ 100 } />
+          </Route>
+
           <Route exact path="/">
            <ColourHeadline message=" Click ME! - to change ME!"/>
           </Route>
@@ -112,9 +124,7 @@ function App() {
             <Transform  function= { x => x - (x * x )/10 }/>
           </Route>
 
-          <Route path="/Hooks">
-            <Clicked2 />
-          </Route>
+
           <Route path="/steps/:max/:step"
             render={ ( { match } ) => ( <StepCounter  max= { match.params.max } step = { match.params.step } /> )}>
           </Route>
