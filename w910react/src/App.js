@@ -37,6 +37,8 @@ import Dates from './components/07pre-built/Dates'
 import Images from './components/07pre-built/Images'
 import ColourHeadline from './components/07pre-built/ColourHeadline'
 
+import {Clicked as Clicked2} from './components/10hooks/Clicked'
+
 
 function App() {
   return (
@@ -108,7 +110,10 @@ function App() {
             <Transform  function= { x => x * x }/>
             <Transform  function= { x => x + x/2 }/>
             <Transform  function= { x => x - (x * x )/10 }/>
-       
+          </Route>
+
+          <Route path="/Hooks">
+            <Clicked2 />
           </Route>
           <Route path="/steps/:max/:step"
             render={ ( { match } ) => ( <StepCounter  max= { match.params.max } step = { match.params.step } /> )}>

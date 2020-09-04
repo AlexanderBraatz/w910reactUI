@@ -35,6 +35,9 @@ const Footer = () => (
       <li className="nav-item">
         <Link className="nav-link " to="/pre-built">Pre-built</Link>
       </li>  
+      <li className="nav-item">
+        <Link className="nav-link " to="/hooks">Hooks</Link>
+      </li>  
     </ul>
   </div>
 </nav>
