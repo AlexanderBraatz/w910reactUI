@@ -46,6 +46,7 @@ import StepCounterH from './components/10hooks/StepCounterH'
 import CatchMeIfYouCanH from './components/10hooks/CatchMeIfYouCanH'
 import RollCallH from './components/10hooks/RollCallH'
 import PasswordStrengthH from './components/10hooks/PasswordStrengthH'
+import TempConverterH from './components/10hooks/TempConverterH'
 
 
 function App() {
@@ -63,6 +64,7 @@ function App() {
             <CatchMeIfYouCanH jump={ 100 } />
             <RollCallH names={ ["Alex","Dean","Oscar","Marta","Gilson"] } />
             <PasswordStrengthH />
+            <TempConverterH />
           </Route>
 
           <Route exact path="/">
