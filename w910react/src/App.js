@@ -42,6 +42,10 @@ import ToggleTextH from './components/10hooks/ToggleTextH'
 import {Clicked as Clicked2} from './components/10hooks/Clicked'
 import SquareH from './components/10hooks/SquareH'
 import CounterH from './components/10hooks/CounterH'
+import StepCounterH from './components/10hooks/StepCounterH'
+import CatchMeIfYouCanH from './components/10hooks/CatchMeIfYouCanH'
+import RollCallH from './components/10hooks/RollCallH'
+import PasswordStrengthH from './components/10hooks/PasswordStrengthH'
 
 
 function App() {
@@ -55,6 +59,10 @@ function App() {
             <SquareH colour= "hotpink" />
             <ToggleTextH initial="Hello" alternate="World" />
             <CounterH initial={ 50 } max={ 100 } />
+            <StepCounterH step={ 5 }  max={ 100 } />
+            <CatchMeIfYouCanH jump={ 100 } />
+            <RollCallH names={ ["Alex","Dean","Oscar","Marta","Gilson"] } />
+            <PasswordStrengthH />
           </Route>
 
           <Route exact path="/">
