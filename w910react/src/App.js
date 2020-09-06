@@ -49,6 +49,7 @@ import PasswordStrengthH from './components/10hooks/PasswordStrengthH'
 import TempConverterH from './components/10hooks/TempConverterH'
 import ListH from './components/10hooks/ListH'
 import ColoursH from './components/10hooks/ColoursH'
+import DieH from './components/10hooks/DieH'
 
 
 function App() {
@@ -69,6 +70,7 @@ function App() {
             <TempConverterH />
             <ListH />
             <ColoursH colours ={ ["#C14412", "#EBB31A", "#8F5318", "#009EAD", "#395967"]}/>
+            <DieH sides={ 6 } />
           </Route>
 
           <Route exact path="/">
