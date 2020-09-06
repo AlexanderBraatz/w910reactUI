@@ -47,6 +47,8 @@ import CatchMeIfYouCanH from './components/10hooks/CatchMeIfYouCanH'
 import RollCallH from './components/10hooks/RollCallH'
 import PasswordStrengthH from './components/10hooks/PasswordStrengthH'
 import TempConverterH from './components/10hooks/TempConverterH'
+import ListH from './components/10hooks/ListH'
+import ColoursH from './components/10hooks/ColoursH'
 
 
 function App() {
@@ -65,6 +67,8 @@ function App() {
             <RollCallH names={ ["Alex","Dean","Oscar","Marta","Gilson"] } />
             <PasswordStrengthH />
             <TempConverterH />
+            <ListH />
+            <ColoursH colours ={ ["#C14412", "#EBB31A", "#8F5318", "#009EAD", "#395967"]}/>
           </Route>
 
           <Route exact path="/">
